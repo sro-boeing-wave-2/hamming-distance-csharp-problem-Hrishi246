@@ -19,7 +19,7 @@ namespace Hamming
 
             if (original.Length != current.Length)
             {
-                throw new ArgumentException("Hamming Distance can only be calculated over strings of equal length");
+                throw new   ArgumentException("Hamming Distance can only be calculated over strings of equal length");
             }
 
             char[] set1 = original.ToCharArray();
